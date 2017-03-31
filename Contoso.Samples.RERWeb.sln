@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Samples.RERWeb", "Contoso.Samples.RERWeb\Contoso.Samples.RERWeb.csproj", "{D6290E08-3E92-49B3-841C-E16AEAB164B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{99683ACB-0D00-46D7-AD3C-E3CA014BCFD3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E674BED8-6E1D-4E87-B53D-58244C6B7615}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ContosoSamplesRERWeb-WAWS-dev.json = PublishScripts\Configurations\ContosoSamplesRERWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6290E08-3E92-49B3-841C-E16AEAB164B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6290E08-3E92-49B3-841C-E16AEAB164B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6290E08-3E92-49B3-841C-E16AEAB164B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6290E08-3E92-49B3-841C-E16AEAB164B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E674BED8-6E1D-4E87-B53D-58244C6B7615} = {99683ACB-0D00-46D7-AD3C-E3CA014BCFD3}
+	EndGlobalSection
+EndGlobal
